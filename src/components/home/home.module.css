@@ -1,0 +1,60 @@
+.home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 45rem;
+	/* background: rgb(255, 255, 222);
+	background: linear-gradient(
+		90deg,
+		rgba(255, 255, 222, 1) 0%,
+		rgba(225, 242, 242, 1) 50%,
+		rgba(242, 224, 247, 1) 100%
+	); */
+
+	background: hsla(339, 100%, 55%, 1);
+
+	background: linear-gradient(
+		90deg,
+		hsla(339, 100%, 55%, 1) 0%,
+		hsla(197, 100%, 64%, 1) 100%
+	);
+
+	background: -moz-linear-gradient(
+		90deg,
+		hsla(339, 100%, 55%, 1) 0%,
+		hsla(197, 100%, 64%, 1) 100%
+	);
+
+	background: -webkit-linear-gradient(
+		90deg,
+		hsla(339, 100%, 55%, 1) 0%,
+		hsla(197, 100%, 64%, 1) 100%
+	);
+
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF1B6B", endColorstr="#45CAFF", GradientType=1 );
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.homeCard {
+	border-radius: 5px;
+	border: solid black 1px;
+	height: 75%;
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: rgba(255, 255, 255, 0);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4.4px);
+	-webkit-backdrop-filter: blur(4.4px);
+	border: 1px solid rgba(255, 255, 255, 0.32);
+}
+
+.homeName {
+	font-size: 3rem;
+}
